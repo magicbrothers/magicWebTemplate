@@ -67,6 +67,14 @@ h2 {
 	color: white;
 }
 
+p, ul {
+	margin-bottom: 2em;
+}
+
+li {
+	margin: 0.5em 0 0 1em;
+}
+
 footer {
 	text-align: center;
 	margin-top: 1em;
