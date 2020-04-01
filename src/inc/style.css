@@ -64,7 +64,8 @@ h2 {
 
 .navi a:hover, a.current {
 	background-color: #000;
-	color: white;
+	color: #FFF;
+	border-right: 1px solid #FFF;
 }
 
 p, ul {
@@ -73,6 +74,10 @@ p, ul {
 
 li {
 	margin: 0.5em 0 0 1em;
+}
+
+input, button {
+	padding: 0.5em;
 }
 
 footer {
