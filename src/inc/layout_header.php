@@ -35,7 +35,7 @@ $links = array("Home" => "index.php");
 </head>
 <body>
 <div class="row header">
-	<h1 class="col-10"><?=$header?></h1>
+	<header class="col-10"><?=$header?></header>
 </div>
 <div class="row">
 	<div class="col-2 navi">
@@ -57,4 +57,4 @@ $links = array("Home" => "index.php");
 		</div>
 	</div>
 	<div class="col-8 content">
-		<h2><?=$page_title?></h2>
+		<h1><?=$page_title?></h1>

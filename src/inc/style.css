@@ -53,14 +53,19 @@ body {
 	padding: 0.5em 0;
 }
 
-h1 {
+header {
 	font-size: 8vw;
 	text-align: center;
 	border-bottom: 1px solid #FFF;
 }
 
-h2 {
+h1 {
 	font-size: 7vw;
+	padding: 0.25em 0;
+}
+
+h2 {
+	font-size: 5vw;
 	padding: 0.5em 0;
 }
 
@@ -118,8 +123,9 @@ footer {
 	.col-9 { width: 90%; } 
 	.col-10 { width: 100%; }
 
-	h1 { font-size: 4em; }
-	h2 { font-size: 3em; }
+	header { font-size: 4em; }
+	h1 { font-size: 3em; }
+	h2 { font-size: 2em; }
 
 	.navi label { display: none; }
 	.navi-links { display: block; }
