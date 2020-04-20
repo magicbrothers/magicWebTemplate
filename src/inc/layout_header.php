@@ -1,4 +1,4 @@
-<?php
+<!--
 /*
     magicWebTemplate - Simple no-JS website template
     Copyright (C) 2020  magicbrothers
@@ -16,20 +16,12 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-
-
-$cc_by = "John Doe";
-$cc_by_url = "example.org";
-$base = "https://".$_SERVER["HTTP_HOST"]."/";
-$header = "magicWebTemplate";
-$links = array("Home" => "index.php");
-?>
+-->
 <!doctype html>
 <html lang="de">
 <head>
 	<title><?=$header." - ".$page_title?></title>
 	<link rel="stylesheet" href="<?=$base?>inc/style.css" />
-	<link rel="icon" href="<?=$base?>inc/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="UTF-8" />
 </head>
