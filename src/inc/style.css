@@ -91,6 +91,20 @@ h2 {
 	border-right: 1px solid #FFF;
 }
 
+table {
+	width: 100%;
+	text-align: center;
+}
+
+th, td {
+	padding: 1vw;
+}
+
+td:hover, td:hover a {
+	background-color: #FFF;
+	color: #000;
+}
+
 p, ul {
 	margin-bottom: 2em;
 }
